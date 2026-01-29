@@ -1,26 +1,75 @@
 // Bloco 1 – Variáveis Simples (1 a 20)
 
-console.log("1. Crie uma variável chamada nome e atribua seu nome.");
+// console.log("1. Crie uma variável chamada nome e atribua seu nome.");
 
-const nome = "Felipe";
+// const nome = "Felipe";
 
-console.log("Nome:", nome);
+// console.log("Nome:", nome);
 
-// Crie uma variável idade e atribua sua idade.
+// console.log("2. Crie uma variável idade e atribua sua idade.");
 
-// Crie duas variáveis a e b, some os valores e mostre o resultado.
+// const idade = 33;
 
-// Crie uma variável altura e armazene um número decimal.
+// console.log("Idade:", idade);
 
-// Crie uma variável verdadeiro com valor true.
+// console.log("3. Crie duas variáveis a e b, some os valores e mostre o resultado.");
 
-// Crie uma variável falso com valor false.
+// const a = 5;
+// const b = 10;
+// const soma = a + b;
 
-// Troque os valores de duas variáveis x = 5 e y = 10.
+// console.log("Soma de a e b:", a + b);
+// console.log("Soma armazenada na variável:", soma);
 
-// Crie uma variável mensagem e concatene seu nome e idade.
+// console.log("4. Crie uma variável altura e armazene um número decimal.");
 
-// Crie uma variável nota1 e nota2 e calcule a média.
+// const altura = 1.75;
+
+// console.log("Altura:", altura);
+
+// console.log("5. Crie uma variável verdadeiro com valor true.");
+
+// const verdadeiro = true;
+
+// console.log("Verdadeiro:", verdadeiro);
+
+// console.log("6. Crie uma variável falso com valor false.");
+
+// const falso = false;
+
+// console.log("Falso:", falso);
+
+// console.log("7. Troque os valores de duas variáveis x = 5 e y = 10.");
+
+// let x = 1;
+// let y = 10;
+
+// console.log("x =", x, "y =", y);
+
+// let troca = x;
+// x = y;
+// y = troca;
+
+// console.log("Após troca: x =", x, "y =", y);
+
+// console.log("8. Crie uma variável mensagem e concatene seu nome e idade.");
+
+//  const nome = "Felipe"
+//  const idade = 33
+//  const mensagem = "Meu nome é " + nome + " e tenho " + idade + " anos."
+
+//  console.log(mensagem);
+
+// console.log("9. Crie uma variável nota1 e nota2 e calcule a média.");
+
+let a = 10
+
+function test() {
+    console.log(a);
+    let a = 20
+}
+
+test();
 
 // Crie uma variável cidade e atribua o nome da sua cidade.
 

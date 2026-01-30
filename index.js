@@ -62,55 +62,138 @@
 
 // console.log("9. Crie uma variável nota1 e nota2 e calcule a média.");
 
-let a = 10
+// const nota1 = 8
+// const nota2 = 9
 
-function test() {
-    console.log(a);
-    let a = 20
-}
+// const media = (nota1 + nota2) / 2
 
-test();
+// console.log("Média:", media);
 
-// Crie uma variável cidade e atribua o nome da sua cidade.
+// console.log("10. Crie uma variável cidade e atribua o nome da sua cidade. ") 
 
-// Crie duas variáveis num1 e num2 e subtraia num2 de num1.
+// const cidade = "São Paulo";
 
-// Crie uma variável distancia e multiplique por 2.
+// console.log("Cidade:", cidade);
 
-// Crie uma variável preco e divida por 2.
+// console.log("11. Crie duas variáveis num1 e num2 e subtraia num2 de num1.");
 
-// Crie uma variável nomeCompleto juntando nome e sobrenome.
+// const num1 = 100
+// const num2 = 30 
 
-// Crie uma variável anoNascimento e calcule sua idade.
+// const subtracao = num1 - num2
 
-// Crie uma variável temperatura e aumente 5 graus.
+// console.log("Subtração:", subtracao);
 
-// Crie uma variável saldo e diminua 50.
+// console.log("12. Crie uma variável distancia e multiplique por 2.");
 
-// Crie uma variável isMaior que seja verdadeira se idade > 18.
+// const distancia = 10;
 
-// Crie duas variáveis x e y e verifique se são iguais.
+// console.log("Distância multiplicada:", distancia * 2);
 
-// Crie uma variável mensagemFinal com a frase “Olá, meu nome é X e tenho Y anos”.
+// console.log("13. Crie uma variável preco e divida por 2.");
+
+// const preco = 100;
+
+// console.log("Preço dividido:", preco / 2);
+
+// console.log("14. Crie uma variável nomeCompleto juntando nome e sobrenome.");
+
+// const nome = "Felipe";
+// const sobrenome = "Mellão";
+
+// const nomeCompleto = nome + " " + sobrenome;
+
+// console.log("Nome Completo:", nomeCompleto);
+
+// console.log("14. Crie uma variável anoNascimento e calcule sua idade.");
+
+// const anoNascimento = 1992;
+// const anoAtual = 2026;
+// const idade = anoAtual - anoNascimento;
+
+// console.log("Idade:", idade);
+
+// console.log("15. Crie uma variável temperatura e aumente 5 graus.");
+
+// const temperatura = 20;
+
+// console.log("Temperatura aumentada:", temperatura + 5);
+
+// console.log("16. Crie uma variável saldo e diminua 50.");
+
+// const saldo = 200;
+
+// console.log("Saldo diminuído:", saldo - 50);
+
+// console.log("17. Crie uma variável isMaior que seja verdadeira se idade > 18.");
+
+// const idade = 33
+// const isMaior = idade > 18
+
+// console.log("isMaior:", isMaior);
+
+// console.log("18. Crie duas variáveis x e y e verifique se são iguais.");
+
+// const x = 20
+// const y = 20
+
+// console.log("X = ", x, "Y =", y)
+// console.log("São iguais?", x === y)
+
+// console.log("19. Crie uma variável mensagemFinal com a frase “Olá, meu nome é X e tenho Y anos”.");
+
+// const nome = "Felipe";
+// const idade = 33;
+// const mensagemFinal = "Olá, meu nome é " + nome + " e tenho " + idade + " anos.";
+
+// console.log(mensagemFinal);
 
 // Bloco 2 – Operadores Matemáticos (21 a 40)
-// Crie duas variáveis a e b e calcule a + b.
 
-// Calcule a - b.
+console.log("21. Crie duas variáveis a e b e faça as operações que pede.");
 
-// Calcule a * b.
+let a = 10
+console.log("Valor de a é:", a)
 
-// Calcule a / b.
+let b = 5
+console.log("Valor de b é:", b)
 
-// Calcule a % b (resto da divisão).
+// console.log("Calcule a + b.");
 
-// Aumente a em 1 usando operador de incremento.
+// console.log("a + b =", a + b);
 
-// Diminua b em 1 usando operador de decremento.
+// console.log("Calcule a - b.");
 
-// Some 10 a a usando operador +=.
+// console.log("a - b =", a - b);
 
-// Subtraia 5 de b usando operador -=.
+// console.log("Calcule a * b.");
+
+// console.log("a * b =", a * b);
+
+// console.log("Calcule a / b.");
+
+// console.log("a / b =", a / b);
+
+// console.log("Calcule a % b resto da divisão")
+
+// console.log("a % b =", a % b);
+
+// console.log("Aumente a em 1 usando operador de incremento.")
+
+// console.log("a =", ++a)
+
+// console.log("Diminua b em 1 usando operador de decremento.");
+
+// console.log("b =", --b);
+
+// console.log("Some 10 a variável a usando operador +=.")
+
+// console.log("Novo valor de a:", a += a)
+
+// console.log("Subtraia 5 de b usando operador -=.")
+
+// console.log("Novo valor de b:", b -= b) 
+PAREI AQUI
 
 // Multiplique a por 3 usando operador *=.
 

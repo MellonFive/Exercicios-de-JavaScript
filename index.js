@@ -193,21 +193,45 @@ console.log("Valor de b é:", b)
 // console.log("Subtraia 5 de b usando operador -=.")
 
 // console.log("Novo valor de b:", b -= b) 
-PAREI AQUI
 
-// Multiplique a por 3 usando operador *=.
+// console.log("Multiplicando a por 3")
 
-// Divida b por 2 usando operador /=.
+// console.log("Novo valor de a:", a *= 3)
 
-// Crie uma variável resultado que seja a % 2.
+// console.log("Divida b por 2 usando operador /=")
 
-// Crie uma variável dobro que seja a * 2.
+// console.log("Novo valor de b:", b /= 2)
 
-// Crie uma variável metade que seja b / 2.
+// console.log("Crie uma variável resultado que seja a % 2.");
 
-// Calcule (a + b) * 2.
+// let resultado = a % 2
 
-// Calcule a² + b².
+// console.log("Resultado de a % 2 é:", resultado);
+
+// console.log("Crie uma variável dobro que seja a * 2.");
+
+// const dobro = a * 2;
+
+// console.log("Dobro de a é:", dobro);
+
+// console.log("Crie uma variável metade que seja b / 2.");
+
+// const metade = b / 2;
+
+// console.log("Metade de b é:", metade);
+
+// console.log("Calcule (a + b) * 2.");
+
+// console.log("(a + b) * 2 =", (a + b) * 2);
+
+// console.log("Calcule a² + b².");
+
+// const quadradoA = a ** 2;
+// const quadradoB = b ** 2;
+
+// const somaQuadrados = quadradoA + quadradoB;
+
+// console.log("a² + b² =", somaQuadrados);
 
 // Calcule a diferença absoluta entre a e b.
 

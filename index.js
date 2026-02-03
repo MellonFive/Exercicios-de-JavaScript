@@ -233,9 +233,21 @@ console.log("Valor de b é:", b)
 
 // console.log("a² + b² =", somaQuadrados);
 
-// Calcule a diferença absoluta entre a e b.
+// console.log("Calcule a diferença absoluta entre a e b.");
 
-// Calcule a média aritmética de 3 números.
+// const diferencaAbsoluta = Math.abs(b - a);
+
+// console.log("Diferença absoluta entre a e b é:", diferencaAbsoluta);
+
+// console.log("Calcule a média aritmética de 3 números.");
+
+// const num1 = 8;
+// const num2 = 7;
+// const num3 = 9;
+
+// const mediaAritmetica = (num1 + num2 + num3) / 3;
+
+// console.log("Média aritmética de num1, num2 e num3 é:", mediaAritmetica);
 
 // Calcule a soma de 5 variáveis quaisquer.
 

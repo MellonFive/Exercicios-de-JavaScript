@@ -150,13 +150,13 @@
 
 // Bloco 2 – Operadores Matemáticos (21 a 40)
 
-console.log("21. Crie duas variáveis a e b e faça as operações que pede.");
+// console.log("21. Crie duas variáveis a e b e faça as operações que pede.");
 
-let a = 10
-console.log("Valor de a é:", a)
+// let a = 10
+// console.log("Valor de a é:", a)
 
-let b = 5
-console.log("Valor de b é:", b)
+// let b = 5
+// console.log("Valor de b é:", b)
 
 // console.log("Calcule a + b.");
 
@@ -249,48 +249,144 @@ console.log("Valor de b é:", b)
 
 // console.log("Média aritmética de num1, num2 e num3 é:", mediaAritmetica);
 
-// Calcule a soma de 5 variáveis quaisquer.
+// console.log("Calcule a soma de 5 variáveis quaisquer.");
 
-// Crie uma variável somaQuadrados que seja a² + b² + c².
+// const var1 = 10;
+// const var2 = 10;
+// const var3 = 10;
+// const var4 = 10;
+// const var5 = 10;
+
+// const somaVariaveis = var1 + var2 + var3 + var4 + var5;
+
+// console.log("Soma das 5 variáveis é:", somaVariaveis);
+
+// console.log("Crie uma variável somaQuadrados que seja a² + b² + c².")
+
+// const num1 = 10;
+// const num2 = 5;
+// const num3 = 3;
+
+// let somaQuadrados = (num1 ** 2) + (num2 ** 2) + (num3 ** 2);
+
+// console.log("Soma dos quadrados de num1, num2 e num3 é:", somaQuadrados);
 
 // Bloco 3 – Operadores de Comparação (41 a 60)
-// Verifique se a > b.
 
-// Verifique se a < b.
+// console.log("Verifique se a > b:", a > b);
 
-// Verifique se a >= b.
+// console.log("Verifique se a < b:", a < b);
 
-// Verifique se a <= b.
+// console.log("Verifique se a >= b:", a >= b);
 
-// Verifique se a == b.
+// console.log("Verifique se a <= b:", a <= b);
 
-// Verifique se a != b.
+// console.log("Verifique se a == b:", a == b);
 
-// Crie uma variável maiorIdade se idade >= 18.
+// console.log("Verifique se a != b:", a != b);
 
-// Verifique se nota é maior ou igual a 7.
+// console.log("Crie uma variável maiorIdade se idade >= 18.");
 
-// Verifique se numero é par.
+// const idade = 33;
+// const maiorIdade = idade >= 18;
 
-// Verifique se numero é ímpar.
+// console.log("maiorIdade:", maiorIdade);
 
-// Compare duas strings nome1 e nome2.
+// console.log("Verifique se nota é maior ou igual a 7.");
 
-// Verifique se cidade é igual a “São Paulo”.
+// const nota = 7;
 
-// Verifique se anoNascimento é diferente de 2000.
+// const seAprovado = nota >= 7;
 
-// Crie uma variável entre10e20 se número >=10 e <=20.
+// console.log("Nota é maior ou igual a 7?", seAprovado);
 
-// Verifique se idade não é menor que 18.
+// console.log("Verifique se numero é par.");
 
-// Compare duas variáveis x e y usando !==.
+// const numero = 5;
 
-// Verifique se temperatura está abaixo de 0.
+// const par = numero % 2 === 0;
 
-// Verifique se saldo é positivo.
+// console.log("Número é par?", par);
 
-// Verifique se saldo é negativo.
+// console.log("Verifique se numero é ímpar.");
+
+// const numero = 1;
+
+// const Impar = numero % 2 !== 0;
+
+// console.log("Número é ímpar?", Impar);
+
+// console.log("Compare duas strings nome1 e nome2.");
+
+// const nome1 = "Felipe";
+// const nome2 = "Sandra";
+
+// const nomesIguais = nome1 === nome2;
+
+// console.log("As strings são iguais?", nomesIguais);
+
+// console.log("Verifique se cidade é igual a “São Paulo”.");
+
+// const cidade = "São Paulo";
+
+// const cidadeIgual = cidade === "São Paulo";
+
+// console.log("Cidade é São Paulo?", cidadeIgual);
+
+// console.log("Verifique se anoNascimento é diferente de 2000.");
+
+// const anoNascimento = 1992;
+
+// const diferenteDe2000 = anoNascimento !== 2000;
+
+// console.log("Ano de nascimento é diferente de 2000?", diferenteDe2000);
+
+// console.log("Crie uma variável entre10e20 se número >= 10 e <=20.");
+
+// const numero = 11;
+
+// const entre10e20 = numero >= 10 && numero <= 20;
+
+// console.log("Número está entre 10 e 20?", entre10e20);
+
+// console.log("Verifique se idade não é menor que 18.");
+
+// const idade = 19;
+
+// const naoMenorQue18 = !(idade < 18);
+
+// console.log("Idade não é menor que 18?", naoMenorQue18);
+
+// console.log("Compare duas variáveis x e y usando !==.");
+
+// const x = 10;
+// const y = 20;
+
+// console.log("x !== y:", x !== y);
+
+// console.log("Verifique se temperatura está abaixo de 0.");
+
+// const temperatura = -5;
+
+// const abaixoDeZero = temperatura < 0;
+
+// console.log("Temperatura está abaixo de 0?", abaixoDeZero);
+
+// console.log("Verifique se saldo é positivo.");
+
+// const saldo = -100;
+
+// const saldoPositivo = saldo > 0;
+
+// console.log("Saldo é positivo?", saldoPositivo);
+
+console.log("Verifique se saldo é negativo.");
+
+const saldo = -100; 
+
+const saldoNegativo = saldo < 0;
+
+console.log("Saldo é negativo?", saldoNegativo);
 
 // Verifique se idade está entre 18 e 65 anos.
 

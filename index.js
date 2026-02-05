@@ -380,22 +380,47 @@
 
 // console.log("Saldo é positivo?", saldoPositivo);
 
-console.log("Verifique se saldo é negativo.");
+// console.log("Verifique se saldo é negativo.");
 
-const saldo = -100; 
+// const saldo = -100; 
 
-const saldoNegativo = saldo < 0;
+// const saldoNegativo = saldo < 0;
 
-console.log("Saldo é negativo?", saldoNegativo);
+// console.log("Saldo é negativo?", saldoNegativo);
 
-// Verifique se idade está entre 18 e 65 anos.
+// console.log("Verifique se idade está entre 18 e 65 anos.");
+
+// const idade = 33;
+
+// const idadeEntre18E65 = idade >=18 && idade <= 65;
+
+// console.log("Idade  está entre 18 e 65 anos?", idadeEntre18E65);
 
 // Bloco 4 – Operadores Lógicos (61 a 80)
-// Verifique se idade > 18 e idade < 60.
 
-// Verifique se idade < 18 ou idade > 60.
+// console.log("Verifique se idade > 18 e idade < 60.");
 
-// Negue o valor de verdadeiro.
+// const idade = 33;
+
+// const idadeEntre18E60 = idade > 18 && idade < 60;
+
+// console.log("Idade é maior que 18 e menor que 60?", idadeEntre18E60);
+
+// console.log("Verifique se idade < 18 ou idade > 60.");
+
+// const idade = 33;
+
+// const idadeMenor18OuMaior60 = idade < 18 || idade > 60;
+
+// console.log("Idade é menor que 18 ou maior que 60?", idadeMenor18OuMaior60);
+
+// console.log("Negue o valor de verdadeiro:");
+
+// const verdadeiro = true;
+
+// const negacao = !verdadeiro;
+
+// console.log("Negação de verdadeiro é:", negacao);
 
 // Crie uma variável podeDirigir com lógica idade >=18 && possuiCNH.
 

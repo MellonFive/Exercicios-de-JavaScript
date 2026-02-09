@@ -422,15 +422,47 @@
 
 // console.log("Negação de verdadeiro é:", negacao);
 
-// Crie uma variável podeDirigir com lógica idade >=18 && possuiCNH.
+// console.log("Crie uma variável podeDirigir com lógica idade >=18 && possuiCNH.");
 
-// Crie uma variável temDesconto se idade < 18 || idade > 65.
+// const idade = 33;
+// const possuiCNH = true;
+// const podeDirigir = idade >= 18 && possuiCNH;
 
-// Verifique se nota1 e nota2 são maiores que 7.
+// console.log("Pode dirigir?", podeDirigir);
 
-// Verifique se saldo é positivo e limite é maior que 100.
+// console.log("Crie uma variável temDesconto se idade < 18 || idade > 65.");
 
-// Crie variável podeViajar se passaporte é verdadeiro ou documento é verdadeiro.
+// const idade = 33;
+// const temDesconto = idade < 18 || idade > 65;
+
+// console.log("Tem desconto?", temDesconto);
+
+// console.log("Verifique se nota1 e nota2 são maiores que 7.");
+
+// const nota1 = 7;
+// const nota2 = 7;
+
+// const notasMaior = nota1 > 7 && nota2 > 7;
+
+// console.log("Nota1 e Nota2 são maiores que 7?", notasMaior);
+
+// console.log("Verifique se saldo é positivo e limite é maior que 100.");
+
+// const saldo = 100;
+// const limite = 150;
+
+// const saldoPositivoELimiteMaiorQue100 = saldo > 0 && limite > 100;
+
+// console.log("Saldo é positivo e limite é maior que 100?", saldoPositivoELimiteMaiorQue100);
+
+console.log("Crie variável podeViajar se passaporte é verdadeiro ou documento é verdadeiro.");
+
+const passaporte = true;
+const documento = false;
+
+const podeViajar = passaporte || documento;
+
+console.log("Pode viajar?", podeViajar);
 
 // Crie variável naoPodeComprar negando podeComprar.
 

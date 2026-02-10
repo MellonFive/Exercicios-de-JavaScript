@@ -109,6 +109,7 @@
 
 // const anoNascimento = 1992;
 // const anoAtual = 2026;
+
 // const idade = anoAtual - anoNascimento;
 
 // console.log("Idade:", idade);

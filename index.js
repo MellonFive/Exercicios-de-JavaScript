@@ -456,24 +456,54 @@
 
 // console.log("Saldo é positivo e limite é maior que 100?", saldoPositivoELimiteMaiorQue100);
 
-console.log("Crie variável podeViajar se passaporte é verdadeiro ou documento é verdadeiro.");
+// console.log("Crie variável podeViajar se passaporte é verdadeiro ou documento é verdadeiro.");
 
-const passaporte = true;
-const documento = false;
+// const passaporte = true;
+// const documento = false;
 
-const podeViajar = passaporte || documento;
+// const podeViajar = passaporte || documento;
 
-console.log("Pode viajar?", podeViajar);
+// console.log("Pode viajar?", podeViajar);
 
-// Crie variável naoPodeComprar negando podeComprar.
+// console.log("Crie variável naoPodeComprar negando podeComprar.");
 
-// Verifique se a é maior que 10 e menor que 20.
+// const podeComprar = false;
 
-// Verifique se b é menor que 5 ou maior que 15.
+// const naoPodeComprar = !podeComprar;
 
-// Crie variável exame se nota >= 4 && nota <7.
+// console.log("Não pode comprar?", naoPodeComprar);
 
-// Crie variável aprovado se nota >=7.
+// console.log("Verifique se a é maior que 10 e menor que 20.");
+
+// const a = 15;
+
+// const aMaiorQue10EMenorQue20 = a > 10 && a < 20;
+
+// console.log("a é maior que 10 e menor que 20?", aMaiorQue10EMenorQue20);
+
+// console.log("Verifique se b é menor que 5 ou maior que 15.");
+
+// const b = 3
+
+// const bMenorQue5OuMaiorQue15 = b < 5 || b > 15;
+
+// console.log("b é menor que 5 ou maior que 15?", bMenorQue5OuMaiorQue15);
+
+// console.log("Crie variável exame se nota >= 4 && nota < 7.");
+
+// const nota = 6;
+
+// const exame = nota >= 4 && nota < 7;
+
+// console.log("Exame?", exame);
+
+console.log("Crie variável aprovado se nota >=7.");
+
+const nota = 8;
+
+const aprovado = nota >= 7;
+
+console.log("Aprovado?", aprovado);
 
 // Crie variável reprovado se nota <4.
 

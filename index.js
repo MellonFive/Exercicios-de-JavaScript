@@ -497,27 +497,79 @@
 
 // console.log("Exame?", exame);
 
-console.log("Crie variável aprovado se nota >=7.");
+// console.log("Crie variável aprovado se nota >=7.");
 
-const nota = 8;
+// const nota = 8;
 
-const aprovado = nota >= 7;
+// const aprovado = nota >= 7;
 
-console.log("Aprovado?", aprovado);
+// console.log("Aprovado?", aprovado);
 
-// Crie variável reprovado se nota <4.
+// console.log("Crie uma variável reprovado se nota < 4.")
 
-// Verifique se idade não está entre 18 e 60.
+// const nota1 = 3
+// const nota2 = 4
+// const media = (nota1 + nota2) / 2
 
-// Verifique se numero não é múltiplo de 2.
+// const reprovadoSeNotaForMenorQue4 = media < 4
 
-// Verifique se numero é par e positivo.
+// console.log("Você ficou com média", media)
+// console.log("Reprovado?", reprovadoSeNotaForMenorQue4)
 
-// Verifique se numero é ímpar ou negativo.
+// console.log("Verifique se idade não está entre 18 e 60.")
 
-// Crie variável permitido se idade>=18 && possuiIngresso.
+// const idade = 33
 
-// Crie variável liberado se saldo>=0 || credito>=100.
+// const idadeNaoEstaEntre18e60 = !(idade > 18 && idade < 60)
+
+// console.log("A idade é de", idade)
+// console.log("A idade não está entre 18 e 60 anos? ", idadeNaoEstaEntre18e60)
+
+// console.log("Verifique se numero não é múltiplo de 2.")
+
+// const numero = 1
+
+// const multiploDeDois = (numero % 2 !== 0)
+
+// console.log("Digitei o número: ", numero)
+// console.log("Ele não é múltiplo de 2?", multiploDeDois)
+
+// console.log("Verifique se numero é par e positivo.")
+
+// const numero = 4
+
+// const numeroParEPositivo = numero % 2 === 0 && numero > 0
+
+// console.log("O número é", numero)
+// console.log("O número é par e positivo?",numeroParEPositivo)
+
+// console.log("Verifique se numero é ímpar ou negativo.")
+
+// const numero = 1
+
+// const numeroImparOuNegativo = numero % 2 === 1 || numero < 0
+
+// console.log("O número é: ", numero)
+// console.log("Ele é impar ou negativo?", numeroImparOuNegativo)
+
+// console.log("Crie variável permitido se idade >= 18 && possuiIngresso.")
+
+// const idade = 11 
+// const possuiIngresso = true
+
+// const permitindoIdadeMaiorOuIguala18EPossuiIngresso = idade >= 18 && possuiIngresso === true
+
+// console.log("A idade é:" + idade + "e o ingresso é: " + permitindoIdadeMaiorOuIguala18EPossuiIngresso)
+
+// console.log("Crie variável liberado se saldo >= 0 ou credito >= 100.")
+
+// const saldo = 0
+// const credito = 10
+
+// const liberado = saldo >= 0 || credito >= 100
+
+// console.log("O saldo é de " + saldo + " e o crédito é de", credito)
+// console.log("Está liberado?", liberado)
 
 // Bloco 5 – Exercícios Mistos e Criativos (81 a 100)
 // Troque os valores de 3 variáveis a, b, c.

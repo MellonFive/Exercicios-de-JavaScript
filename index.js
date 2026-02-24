@@ -575,22 +575,34 @@
 
 // Bloco 5 – Exercícios Mistos e Criativos (81 a 100)
 
+// console.log("Troque os valores de 3 variáveis a, b, c.")
 
-// Troque os valores de 3 variáveis a, b, c.
+// let a = 1;
+// let b = 2;
+// let c = 3;
 
-console.log("Crie uma variável mediaFinal calculando média ponderada de 3 notas.")
+// console.log("Antes da troca: a =", a, "b =", b, "c =", c);
 
-const nota1 = 10;
-const nota2 = 4;
-const nota3 = 5;
+// let tempA = a;
+// a = b;
+// b = c;
+// c = tempA;
 
-const peso1 = 0.5;
-const peso2 = 0.3;
-const peso3 = 0.2;
+// console.log("Após a troca: a =", a, "b =", b, "c =", c);
 
-const mediaFinal = (nota1 * peso1) + (nota2 * peso2) + (nota3 * peso3);
+// console.log("Crie uma variável mediaFinal calculando média ponderada de 3 notas.")
 
-console.log("Média Final:", mediaFinal);
+// const nota1 = 10;
+// const nota2 = 4;
+// const nota3 = 5;
+
+// const peso1 = 0.5;
+// const peso2 = 0.3;
+// const peso3 = 0.2;
+
+// const mediaFinal = (nota1 * peso1) + (nota2 * peso2) + (nota3 * peso3);
+
+// console.log("Média Final:", mediaFinal);
 
 // Converta idade em meses.
 

@@ -1,3 +1,5 @@
+// EXERCÍCIOS DE LÓGICA DE PROGRAMAÇÃO - NÍVEL 1
+
 // Bloco 1 – Variáveis Simples (1 a 20)
 
 // console.log("1. Crie uma variável chamada nome e atribua seu nome.");

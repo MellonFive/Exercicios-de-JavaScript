@@ -604,7 +604,13 @@
 
 // console.log("Média Final:", mediaFinal);
 
-// Converta idade em meses.
+// console.log("Converta idade em meses.");
+
+// const idade = 33;
+
+// const idadeEmMeses = idade * 12;
+
+// console.log("Idade em meses:", idadeEmMeses);
 
 // Converta altura de metros para centímetros.
 

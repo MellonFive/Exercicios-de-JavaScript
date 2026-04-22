@@ -612,46 +612,135 @@
 
 // console.log("Idade em meses:", idadeEmMeses);
 
-// Converta altura de metros para centímetros.
 
-// Converta temperatura de Celsius para Fahrenheit.
+// PASSO 2 - EXERCÍCIOS DE CONDICIONAIS 
 
-// Crie variável restoDivisao para verificar se número é múltiplo de 3.
+// ## 🟢 Nível 1 — Básico (1–25)
 
-// Crie variável restoDivisao para verificar se número é múltiplo de 5.
+// 1. Verifique se um número é positivo ou negativo
+// 2. Verifique se um número é maior que 10
+// 3. Verifique se um número é par ou ímpar
+// 4. Verifique se uma pessoa é maior de idade (18+)
+// 5. Verifique se um número é igual a 0
+// 6. Compare dois números e diga qual é maior
+// 7. Verifique se uma senha é igual a "1234"
+// 8. Verifique se um número está entre 1 e 10
+// 9. Verifique se uma letra é vogal
+// 10. Verifique se um número é múltiplo de 5
+// 11. Verifique se uma idade é menor que 12 (criança)
+// 12. Verifique se um número é negativo, positivo ou zero
+// 13. Verifique se um usuário está logado (true/false)
+// 14. Verifique se um número é divisível por 2 e 3
+// 15. Verifique se a temperatura está acima de 30
+// 16. Verifique se um valor é maior ou igual a 100
+// 17. Verifique se um número é menor que 50
+// 18. Verifique se uma nota é maior que 7 (aprovado)
+// 19. Verifique se um número está fora do intervalo 10–20
+// 20. Verifique se uma string está vazia
+// 21. Verifique se um número é igual a outro
+// 22. Verifique se uma pessoa pode votar (idade >= 16)
+// 23. Verifique se um número é positivo e par
+// 24. Verifique se um número é negativo e ímpar
+// 25. Verifique se uma variável é null
 
-// Some todos os números de 1 a 10 usando variáveis.
+// ---
 
-// Multiplique todos os números de 1 a 5 usando variáveis.
+// ## 🟡 Nível 2 — Intermediário (26–60)
 
-// Crie variável resultado = a*b + c/d.
+// 26. Classifique nota: A (>=9), B (>=7), C (>=5), D (<5)
+// 27. Verifique faixa etária: criança, adolescente, adulto
+// 28. Calculadora simples (+, -, *, /)
+// 29. Verifique se um ano é bissexto
+// 30. Verifique se um número é múltiplo de 3 ou 5
+// 31. Verifique se um login e senha estão corretos
+// 32. Verifique se pode entrar em festa (idade + convite)
+// 33. Classifique temperatura: frio, morno, quente
+// 34. Verifique se número está entre dois valores
+// 35. Desconto: se compra >100, aplicar desconto
+// 36. Verifique se um número é primo (básico)
+// 37. Sistema de semáforo (verde, amarelo, vermelho)
+// 38. Verifique tipo de triângulo (equilátero, isósceles, escaleno)
+// 39. Verifique se pode dirigir (idade + habilitação)
+// 40. Classifique IMC simples
+// 41. Verifique se uma letra é maiúscula ou minúscula
+// 42. Verifique se uma senha tem mais de 8 caracteres
+// 43. Classifique dia da semana (útil ou fim de semana)
+// 44. Sistema de aprovação com recuperação
+// 45. Verifique se número é divisível por 4 ou 6
+// 46. Classifique salário em faixas
+// 47. Verifique acesso admin ou usuário comum
+// 48. Verifique se um número está dentro de um array (simples)
+// 49. Simule caixa eletrônico (saldo suficiente ou não)
+// 50. Verifique se hora é manhã, tarde ou noite
+// 51. Verifique se pode assistir filme (idade + classificação)
+// 52. Simule frete grátis acima de valor X
+// 53. Verifique se número é múltiplo de 2, 3 ou nenhum
+// 54. Classifique velocidade (lento, normal, rápido)
+// 55. Verifique login com tentativas limitadas
+// 56. Verifique se uma data é válida (simplificado)
+// 57. Sistema de pontuação de jogo
+// 58. Verifique se número está dentro de intervalo aberto ou fechado
+// 59. Classifique nível de usuário (iniciante, intermediário, avançado)
+// 60. Verifique se produto está em estoque
 
-// Crie variável resultado = (a+b)² - (c-d).
+// ---
 
-// Verifique se numero é múltiplo de 2 e 3.
+// ## 🔵 Nível 3 — Avançado (61–100)
 
-// Verifique se numero é múltiplo de 4 ou 6.
+// 61. Sistema de desconto progressivo por valor
+// 62. Calculadora de imposto por faixa salarial
+// 63. Simule sistema de login com bloqueio após 3 erros
+// 64. Verifique regras de senha forte (número, letra, etc.)
+// 65. Classifique risco (baixo, médio, alto) baseado em dados
+// 66. Sistema de nota com peso (prova + trabalho)
+// 67. Verifique acesso por horário (ex: só até 18h)
+// 68. Simule validação de formulário
+// 69. Verifique prioridade de atendimento (idoso, gestante etc.)
+// 70. Sistema de cashback
+// 71. Verifique se um triângulo é válido
+// 72. Simule sistema de níveis de energia (baixo, médio, alto)
+// 73. Classifique cliente (bronze, prata, ouro)
+// 74. Verifique se usuário pode fazer upgrade de plano
+// 75. Sistema de frete baseado em região
+// 76. Verifique regras de promoção (cupom + valor mínimo)
+// 77. Simule sistema de batalha (vida > 0 continua)
+// 78. Verifique se horário está dentro do expediente
+// 79. Sistema de aprovação com média e presença
+// 80. Verifique se pode entrar em site (idade + país)
+// 81. Sistema de pontuação com bônus
+// 82. Classifique clima com base em temperatura e umidade
+// 83. Simule verificação de cartão (limite disponível)
+// 84. Sistema de níveis de acesso (guest, user, admin)
+// 85. Verifique múltiplas condições combinadas
+// 86. Simule sistema de filas prioritárias
+// 87. Verifique se número atende várias regras ao mesmo tempo
+// 88. Classifique um jogador baseado em stats
+// 89. Sistema de alerta (verde, amarelo, vermelho)
+// 90. Verifique validade de cupom com data
+// 91. Simule sistema de pagamento (dinheiro, cartão, pix)
+// 92. Verifique se produto pode ser entregue (região + estoque)
+// 93. Sistema de login com dois fatores (simulado)
+// 94. Classifique feedback (ruim, médio, bom, excelente)
+// 95. Verifique condições de empréstimo
+// 96. Simule aprovação de crédito
+// 97. Sistema de escolha de plano (básico, pro, premium)
+// 98. Verifique se usuário pode acessar recurso específico
+// 99. Simule regras de jogo (vitória, derrota, empate)
+// 100. Sistema completo de cadastro com validações
 
-// Crie variável ganhouDesconto se compra >=100 && clienteVIP.
+// ---
 
-// Crie variável entrouPromo se idade<18 || idade>65.
+// ## 💡 Dica importante
 
-// Crie variável notaExtra se nota < 5 então +2.
+// Não só faça — **tente variar**:
 
-// Crie variável notaFinal somando nota + notaExtra.
+// * use `if`, `else if`, `else`
+// * depois refaça usando funções
+// * depois transforme em pequenos projetos
 
-// Verifique se notaFinal >=7.
+// ---
 
-// Calcule o quadrado de numero usando operador **.
+// Se quiser, posso:
 
-// Crie uma expressão que combine todas as operações vistas: soma, subtração, multiplicação, divisão, módulo, comparação e operadores lógicos.
-
-// Se você quiser, posso criar este mesmo conjunto com exemplos de código JavaScript prontos para cada exercício, de modo que você só copie e teste direto no navegador ou no Node.js. Isso deixa a prática muito mais rápida, especialmente para quem tem TDAH.
-
-// Quer que eu faça isso?
-
-
-
-
-// Nenhum arquivo escolhidoNenhum arquivo escolhido
-// O ChatGPT pode cometer erros. Confira informações importantes. Consulte as Preferências de cookies.
+// * resolver alguns com você passo a passo
+// * ou montar um **mini projeto usando esses exercícios (tipo app real)**
